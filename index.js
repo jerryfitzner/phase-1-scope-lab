@@ -7,18 +7,18 @@ function upperCaseCustomerName(){
     customerName = customerName.toUpperCase();
 };
 
+var bestCustomer;
 
 function setBestCustomer(){
-    var bestCustomer = 'not bob';
-        return bestCustomer;
-};
-
-function overwriteBestCustomer(){
-    var bestCustomer = 'maybe bob'
-        return bestCustomer;
+    bestCustomer = "not bob";
 }
 
+function overwriteBestCustomer(){
+    bestCustomer = "maybe bob";
+}
 
+const leastFavoriteCustomer = "Fred";
 
-
-
+function changeLeastFavoriteCustomer(){
+    leastFavoriteCustomer = "Bob";
+}
